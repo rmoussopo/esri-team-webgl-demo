@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>
+      AudubonGL - Use with ArcGIS API for JavaScript
+    </title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+    <script>
+      dojoConfig = {
+        packages: [{
+          name: "addons",
+          location: "https://audubon-gl.s3-us-west-1.amazonaws.com/latest/release"
+        }]
+      };
+    </script>
+    <script src="https://js.arcgis.com/4.22/"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
